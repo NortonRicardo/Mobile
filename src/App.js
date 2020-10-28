@@ -2,16 +2,22 @@ import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
 
-import MinMax from './components/MinMax'
+// import MinMax from './components/MinMax'
 
-// import Blabla from './components/Primeiro'
-// import X, { Comp2, Comp3 } from './components/Multi'
+import Aleatorio from './components/Aleatorio'
+
+import Blabla from './components/Primeiro'
+import X, { Comp2, Comp3 } from './components/Multi'
 
 function App(){
     return (
         <View style={style.App}>
-            <MinMax min="3" max="20" />
-            {/* <X></X>
+            
+            <Aleatorio min={-10} max={100}/>
+
+            {/* <MinMax min="3" max="20" /> */}
+            {/* <Ale min={10} max={50} /> */}
+             {/* <X></X>
             <Comp3></Comp3>
             <Comp2></Comp2>
             <Blabla></Blabla> */}
