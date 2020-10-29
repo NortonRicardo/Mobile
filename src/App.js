@@ -37,4 +37,4 @@ const style = StyleSheet.create({
         alignItems: "center",
         padding: 20
     }
-})
+})  
