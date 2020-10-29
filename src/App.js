@@ -9,14 +9,16 @@ import { View, StyleSheet } from 'react-native'
 
 // import Botao from './components/Botao'
 import Contador from './components/Contador'
+import Pae from './components/direta/Pae'
 
 function App(){
     return (
         <View style={style.App}>
             
-            <Contador inicial={100}/>
+            <Pae />
             
              {/*
+             <Contador inicial={100}/>
              <Botao />
               <MinMax min="3" max="20" /> 
               <Ale min={10} max={50} />
