@@ -9,7 +9,7 @@ import { View, StyleSheet } from 'react-native'
 
 // import Botao from './components/Botao'
 import Contador from './components/Contador'
-import Pae from './components/direta/Pae'
+import Pae from './components/indireta/Pae'
 
 function App(){
     return (
