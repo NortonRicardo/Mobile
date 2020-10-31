@@ -14,6 +14,8 @@ export default StyleSheet.create({
     fontP: {
         fontSize: 12,
         textAlign: "center"
-    }
+    },
+
+    
     
 })

@@ -8,18 +8,19 @@ import { View, StyleSheet } from 'react-native'
 // import X, { Comp2, Comp3 } from './components/Multi'
 
 // import Botao from './components/Botao'
-import Contador from './components/Contador'
-import Pae from './components/indireta/Pae'
+// import Contador from './components/Contador'
+// import Pae from './components/indireta/Pae'
+import Contador from './components/contador/contadorV2'
 
 function App(){
     return (
         <View style={style.App}>
-            
-            <Pae />
-            
+
+            <Contador />
              {/*
-             <Contador inicial={100}/>
-             <Botao />
+              <Pae />
+              <Contador inicial={100}/>
+              <Botao />
               <MinMax min="3" max="20" /> 
               <Ale min={10} max={50} />
               <Aleatorio min={-10} max={60}/> <X></X>
