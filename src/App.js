@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { SafeAreaView, StyleSheet } from 'react-native'
 
 
 // import MinMax from './components/MinMax'
@@ -10,14 +10,27 @@ import { View, StyleSheet } from 'react-native'
 // import Botao from './components/Botao'
 // import Contador from './components/Contador'
 // import Pae from './components/indireta/Pae'
-import Contador from './components/contador/contadorV2'
+// import Contador from './components/contador/contadorV2'
+import Pae from './components/relacao/Pae'
+import Filho from './components/relacao/Filho'
 
 function App(){
     return (
-        <View style={style.App}>
-
-            <Contador />
+        <SafeAreaView style={style.App}>
+            
              {/*
+                <Pae>
+                    <Filho nome="Ana" sobrenome="Silva" />
+                    <Filho nome="Raquel" sobrenome="Silva" />
+                    <Filho nome="Dalton" sobrenome="Silva" />
+                </Pae>
+
+                <Pae>
+                    <Filho nome="Julia" sobrenome="Stark" />
+                    <Filho nome="Norton" sobrenome="Stark" />
+                    <Filho nome="Tom" sobrenome="Stark" />
+                </Pae>
+              <Contador />
               <Pae />
               <Contador inicial={100}/>
               <Botao />
@@ -26,8 +39,9 @@ function App(){
               <Aleatorio min={-10} max={60}/> <X></X>
               <Comp3></Comp3>
               <Comp2></Comp2>
-              <Blabla></Blabla> */}
-        </View> 
+              <Blabla></Blabla> */
+              }
+        </SafeAreaView> 
     )
 }
 
