@@ -11,12 +11,13 @@ import { SafeAreaView, StyleSheet } from 'react-native'
 // import Contador from './components/Contador'
 // import Pae from './components/indireta/Pae'
 // import Contador from './components/contador/contadorV2'
-import Pae from './components/relacao/Pae'
-import Filho from './components/relacao/Filho'
-
+// import Pae from './components/relacao/Pae'
+// import Filho from './components/relacao/Filho'
+import UsuarioLogado from './components/UsuarioLogado'
 function App(){
     return (
         <SafeAreaView style={style.App}>
+            <UsuarioLogado usuario={  {nome: 'Gui', email: 'gui@hotmail.com'}  } />
             
              {/*
                 <Pae>
