@@ -4,7 +4,7 @@
 		"prefix": "Compfunc",
 		"body": [
 			"import React, { useState } from 'react'",
-			"import { Button, Text, SafeAreaView } from 'react-native'",
+			"import { Button, Text, SafeAreaView, StyleSheet, View } from 'react-native'",
 			"import Estilo from './estilo'",
 			"",
 			"export default props => {",
