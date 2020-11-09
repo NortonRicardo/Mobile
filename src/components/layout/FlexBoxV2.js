@@ -18,7 +18,7 @@ export default props => {
      FlexV1:{
          width: '100%',
          height: '100%',
-         alignItems:"stretch",
+         alignItems:"center", 
          backgroundColor: '#ff801a',
          justifyContent: "center"
      }
