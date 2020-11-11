@@ -22,13 +22,14 @@ import { SafeAreaView, StyleSheet } from 'react-native'
 // import FlexBox from './components/layout/FlexBoxV1'
 // import FlexBox from './components/layout/FlexBoxV2'
 // import FlexBox from './components/layout/FlexBoxV3'
-import FlexBox from './components/layout/FlexBoxV4'
+// import FlexBox from './components/layout/FlexBoxV4Fe'
 
+import Mega from './components/mega/Mega'
 function App(){
     return (
         <SafeAreaView style={style.App}>
 
-            <FlexBox />
+            <Mega qtNumeros={7} />
             
              {/*
              <DigiteSeuNome />
