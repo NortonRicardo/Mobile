@@ -20,8 +20,9 @@ import { SafeAreaView, StyleSheet } from 'react-native'
 
 // import DigiteSeuNome from './components/DigiteSeuNome'
 // import FlexBox from './components/layout/FlexBoxV1'
-
-import FlexBox from './components/layout/FlexBoxV2'
+// import FlexBox from './components/layout/FlexBoxV2'
+// import FlexBox from './components/layout/FlexBoxV3'
+import FlexBox from './components/layout/FlexBoxV4'
 
 function App(){
     return (
